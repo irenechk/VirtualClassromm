@@ -1,16 +1,103 @@
-# React + Vite
+# Virtual Classroom 🎓
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React JS mini project that simulates an online classroom platform where teachers and students can manage classroom activities in one place.
 
-Currently, two official plugins are available:
+## 📌 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Virtual Classroom is a frontend-based educational web application built using React JS. It provides a simple and interactive platform where teachers can post announcements, create assignments, track attendance, share resources, and communicate with students.
 
-## React Compiler
+Students can view classroom updates, submit assignments, check grades, access study resources, and participate in group discussions.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project was built as a React JS mini project to demonstrate core frontend concepts such as components, props, state management, and declarative UI design.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+### 1. Announcement Board
+- Teachers can post announcements
+- Students can view classroom updates
+- Real-time UI updates using React state
+
+### 2. Assignment Submission Portal
+- Teachers can create assignments
+- Students can submit assignments
+- Submission status tracking
+
+### 3. Grading and Feedback System
+- Teachers can assign grades
+- Feedback/comments for assignments
+- Students can view performance
+
+### 4. Educational Resource Sharing
+- Add study materials and useful links
+- Students can access shared resources
+
+### 5. Attendance Tracker
+- Mark students as present/absent
+- View attendance records
+
+### 6. Group Chat Interface
+- Classroom chat simulation
+- Teachers and students can send messages
+
+### 7. Shared Calendar for Deadlines
+- Track assignment deadlines
+- Calendar-style deadline display
+
+### 8. Teacher / Student Dashboard
+- Separate views for teachers and students
+- Role-based UI interactions
+
+---
+
+## 🛠 Tech Stack
+
+**Frontend:**
+- React JS
+- Vite
+- JavaScript
+- Tailwind CSS
+- shadcn/ui
+
+**React Concepts Used:**
+- Functional Components
+- JSX
+- Props
+- useState Hook
+- Component Reusability
+- React Fragments
+- Declarative Programming
+
+---
+
+## 📂 Project Structure
+
+
+virtual-classroom/
+│
+├── public/
+│
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── AnnouncementBoard.jsx
+│   │   ├── AssignmentPortal.jsx
+│   │   ├── GradingPanel.jsx
+│   │   ├── ResourceSection.jsx
+│   │   ├── AttendanceTracker.jsx
+│   │   ├── ChatBox.jsx
+│   │   ├── CalendarView.jsx
+│   │
+│   ├── pages/
+│   │   ├── TeacherDashboard.jsx
+│   │   ├── StudentDashboard.jsx
+│   │
+│   ├── data/
+│   │   ├── mockData.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│
+├── package.json
+└── README.md
